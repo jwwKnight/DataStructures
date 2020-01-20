@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1e65cd-29f9-47da-b5f1-8adf30c93f1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/CalculatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/Josephu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/Josephu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedList/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedList/Boy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedList/CircleSingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedList/CircleSingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedList/Josephu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedList/Josephu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,33 @@
       <recent name="linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Josephu">
+  <component name="RunManager" selected="Application.CalculatorDemo">
+    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.CalculatorDemo" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.DoubleLinkedListDemo" />
       <module name="DataStructures" />
@@ -86,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LianxiTi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LianxiTi" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LianxiTi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.LianxiTi2" />
       <module name="DataStructures" />
@@ -112,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.SingleLinkedListDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorDemo" />
+        <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.LianxiTi2" />
-        <item itemvalue="Application.LianxiTi" />
-        <item itemvalue="Application.SingleLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +163,7 @@
       <workItem from="1579159328921" duration="5294000" />
       <workItem from="1579222384616" duration="14892000" />
       <workItem from="1579395112849" duration="15238000" />
-      <workItem from="1579481795739" duration="5820000" />
+      <workItem from="1579481795739" duration="12817000" />
     </task>
     <task id="LOCAL-00001" summary="老韩数据结构与算法练习代码">
       <created>1579490019052</created>
@@ -169,15 +172,33 @@
       <option name="project" value="LOCAL" />
       <updated>1579490019052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1579490357622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579490357622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="老韩数据结构与算法练习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="老韩数据结构与算法练习代码" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="136" key="#Project_Structure" timestamp="1579159359457">
@@ -188,10 +209,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1579418593965" />
-    <state x="453" y="86" key="CommitChangelistDialog2" timestamp="1579490018368">
+    <state x="453" y="86" key="CommitChangelistDialog2" timestamp="1579490357025">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="453" y="86" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1579490018368" />
+    <state x="453" y="86" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1579490357025" />
     <state x="868" y="254" key="FileChooserDialogImpl" timestamp="1579489948476">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -200,58 +221,66 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="791" y="428" key="Github.ShareDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1579490073845" />
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1579490321784">
+    <state width="1867" height="322" key="GridCell.Tab.0.bottom" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579490321784" />
-    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1579490321784">
+    <state width="1867" height="322" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.0.center" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579490321784" />
-    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1579490321783">
+    <state width="1867" height="322" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.0.left" timestamp="1579510595568">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579490321783" />
-    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1579490321784">
+    <state width="1867" height="322" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595568" />
+    <state width="1867" height="322" key="GridCell.Tab.0.right" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579490321784" />
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1579485321730">
+    <state width="1867" height="322" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579485321730" />
-    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1579485321730">
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579485321730" />
-    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1579485321730">
+    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579485321730" />
-    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1579485321730">
+    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1579510595569">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579485321730" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579510595569" />
+    <state x="532" y="191" key="NewModule_or_Project.wizard" timestamp="1579490623825">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="532" y="191" key="NewModule_or_Project.wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1579490623825" />
     <state x="345" y="118" key="SettingsEditor" timestamp="1579489917953">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="345" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1579489917953" />
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1579490052620">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1579490360035">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579490052620" />
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579490310924">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579490360035" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579510108727">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579490310924" />
-    <state x="532" y="257" key="run.anything.popup" timestamp="1579160492563">
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579510108727" />
+    <state x="532" y="257" key="run.anything.popup" timestamp="1579510119644">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579160492563" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579415444479">
+    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579510119644" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579508285846">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579415444479" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579508285846" />
+    <state x="752" y="303" key="svn.repositoryBrowser" timestamp="1579490558355">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="752" y="303" key="svn.repositoryBrowser/0.40.1920.1040@0.40.1920.1040" timestamp="1579490558355" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +294,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/linkedList/LianxiTi2.java</url>
           <line>35</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/stack/CalculatorDemo.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
