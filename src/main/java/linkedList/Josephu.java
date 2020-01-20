@@ -14,6 +14,8 @@ public class Josephu {
     直到最后一个结点从链表中删除算法结束。
      */
 
+    //测试提交
+
     public static void main(String[] args) {
         CircleSingleLinkedList csll = new CircleSingleLinkedList();
         csll.gameStart(10, 20, 125);
