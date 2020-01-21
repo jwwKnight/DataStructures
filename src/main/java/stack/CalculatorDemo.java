@@ -5,10 +5,12 @@ import java.util.Map;
 
 // 使用栈实现计算器
 public class CalculatorDemo {
-    // 3+2*6-2
+    // 3+2*6-2 = 13
+    // 5*5+6-3 = 28
+    // 7*2*2-5+1-5+3-4 = 18
     public static void main(String[] args) {
         Calculator c = new Calculator();
-        int result = c.calculator("3+2*6-2");
+        int result = c.calculator("7*2*2-5+1-5+3-4");
         System.out.println(result);
     }
 }
@@ -27,18 +29,22 @@ class Calculator {
     private ArrayStack numStack = new ArrayStack(50);
     private ArrayStack oprStack = new ArrayStack(50);
 
-    int index = -1;
+    int index = 0;
 
     //  计算
     public int calculator(String expression) {
-        while (expression.charAt(++index) != -1) {
+        while (true) {
+            if (index >= expression.length()) {
+                break;
+            }
             char ch = expression.charAt(index);
             if (isOpr(ch)) {
                 // 如果是符号
                 if (oprStack.isEmpty()) {
                     // 如果符号栈空则直接入栈
                     oprStack.push(ch);
-                    break;
+                    index++;
+                    continue;
                 }
                 if (isPrior(ch)) {
                     // 如果优先级更高则直接入栈
@@ -54,8 +60,9 @@ class Calculator {
                 }
             } else {
                 // 如果是数字
-                numStack.push(ch);
+                numStack.push(ch - 48);
             }
+            index++;
         }
         // expression解析结束，把stack里的运算完成
         while (!oprStack.isEmpty()) {
@@ -78,7 +85,7 @@ class Calculator {
     // 与oprStack的top比较优先级,true为更高，false为相同或更低
     private boolean isPrior(char opr) {
         Integer pri1 = oprPriority.get(opr);
-        Integer pri2 = oprPriority.get(oprStack.peek());
+        Integer pri2 = oprPriority.get((char) oprStack.peek());
         return pri1 < pri2;
     }
 
@@ -90,13 +97,13 @@ class Calculator {
                 result = num2 + num1;
                 break;
             case '-':
-                result = num2 - num1;
+                result = num1 - num2;
                 break;
             case '*':
                 result = num2 * num1;
                 break;
             case '/':
-                result = num2 / num1;
+                result = num1 / num2;
                 break;
             default:
                 throw new RuntimeException("符号错误");
