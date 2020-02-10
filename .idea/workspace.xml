@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc1e65cd-29f9-47da-b5f1-8adf30c93f1b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stack/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/Queen8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/jwwKnight/DataStructures.git" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -58,7 +65,7 @@
       <recent name="linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorDemo">
+  <component name="RunManager" selected="Application.Queen8">
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
       <module name="DataStructures" />
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DoubleLinkedListDemo" />
+    <configuration name="Migong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Migong" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Josephu" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PolandNotation" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LianxiTi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LianxiTi2" />
+    <configuration name="Queen8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Queen8" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queen8" />
+        <item itemvalue="Application.Migong" />
+        <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.CalculatorDemo" />
         <item itemvalue="Application.ArrayStackDemo" />
-        <item itemvalue="Application.Josephu" />
-        <item itemvalue="Application.DoubleLinkedListDemo" />
-        <item itemvalue="Application.LianxiTi2" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +167,11 @@
       <workItem from="1579222384616" duration="14892000" />
       <workItem from="1579395112849" duration="15238000" />
       <workItem from="1579481795739" duration="13151000" />
-      <workItem from="1579568392383" duration="5319000" />
+      <workItem from="1579568392383" duration="13054000" />
+      <workItem from="1579654690525" duration="8509000" />
+      <workItem from="1579741525356" duration="13097000" />
+      <workItem from="1580864494550" duration="953000" />
+      <workItem from="1581296369837" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="老韩数据结构与算法练习代码">
       <created>1579490019052</created>
@@ -183,7 +194,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579510618573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="栈计算器完成">
+      <created>1579575999542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579575999542</updated>
+    </task>
+    <task id="LOCAL-00005" summary="栈：&#10;逆波兰（后缀）表达式计算器&#10;递归：&#10;迷宫回溯&#10;8皇后回溯">
+      <created>1579768835310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579768835311</updated>
+    </task>
+    <task id="LOCAL-00006" summary="注释">
+      <created>1581297516664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581297516664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,16 +261,14 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="老韩数据结构与算法练习代码" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="栈计算器完成" />
+    <MESSAGE value="栈：&#10;逆波兰（后缀）表达式计算器&#10;递归：&#10;迷宫回溯&#10;8皇后回溯" />
+    <MESSAGE value="注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="136" key="#Project_Structure" timestamp="1579159359457">
@@ -249,14 +279,14 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1579418593965" />
-    <state x="453" y="86" key="CommitChangelistDialog2" timestamp="1579510617954">
+    <state x="666" y="41" key="CommitChangelistDialog2" timestamp="1581297515555">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="453" y="86" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1579510617954" />
-    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1579575985009">
+    <state x="666" y="41" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297515555" />
+    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1581297503585">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1579575985009" />
+    <state x="92" y="132" width="1736" height="856" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1581297503585" />
     <state x="868" y="254" key="FileChooserDialogImpl" timestamp="1579489948476">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -265,38 +295,38 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="791" y="428" key="Github.ShareDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1579490073845" />
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1579575879801">
+    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1581297668114">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579575879801" />
-    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1579575879801">
+    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
+    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1581297668114">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579575879801" />
-    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1579575879801">
+    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
+    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1581297668114">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579575879801" />
-    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1579575879801">
+    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
+    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1581297668114">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579575879801" />
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1579570821632">
+    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1579683574810">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579570821632" />
-    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1579570821632">
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
+    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1579683574810">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579570821632" />
-    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1579570821632">
+    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
+    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1579683574810">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579570821632" />
-    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1579570821632">
+    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1579683574810">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579570821632" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
     <state x="532" y="191" key="NewModule_or_Project.wizard" timestamp="1579490623825">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -305,22 +335,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="345" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1579489917953" />
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1579510622286">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1581297523928">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579510622286" />
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579575984312">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297523928" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579663770179">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579575984312" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579663770179" />
     <state x="532" y="257" key="run.anything.popup" timestamp="1579510119644">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579510119644" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579508285846">
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579760711952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579508285846" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579760711952" />
     <state x="752" y="303" key="svn.repositoryBrowser" timestamp="1579490558355">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -343,6 +373,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/stack/CalculatorDemo.java</url>
           <line>36</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/stack/PolandNotation.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -55,7 +55,7 @@ public class Queen8 {
         judgeCount++;
         for (int i = 0; i < n; i++) {
             //说明
-            //1. array[i] == array[n] 表示判断第n个皇后
+            //1. array[i] == array[n] 表示判断第n个皇后，是否在同一列
             // 2. Math.abs(n-i) == Math.abs(array[n]-array[i])判断第n个皇后是否和第i个皇后在同一斜线
             // n = 1 放置第2列  n=1 array[1] = 1  从0开始
             //Math.abs(n-i) = 1， Math.abs(array[n]-array[i])= Math.abs（1-0） = 1
