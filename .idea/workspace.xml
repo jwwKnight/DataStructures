@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1e65cd-29f9-47da-b5f1-8adf30c93f1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/SortTimeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/Queen8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -65,26 +68,18 @@
       <recent name="linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queen8">
-    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?mvn" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SortTimeCalculator">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.CalculatorDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.PolandNotation" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Queen8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.Queen8" />
       <module name="DataStructures" />
@@ -131,13 +113,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.SelectSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTimeCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.SortTimeCalculator" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortTimeCalculator" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Queen8" />
         <item itemvalue="Application.Migong" />
-        <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.CalculatorDemo" />
-        <item itemvalue="Application.ArrayStackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +179,7 @@
       <workItem from="1579654690525" duration="8509000" />
       <workItem from="1579741525356" duration="13097000" />
       <workItem from="1580864494550" duration="953000" />
-      <workItem from="1581296369837" duration="1481000" />
+      <workItem from="1581296369837" duration="15177000" />
     </task>
     <task id="LOCAL-00001" summary="老韩数据结构与算法练习代码">
       <created>1579490019052</created>
@@ -215,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581297516664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="注释">
+      <created>1581297963662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581297963662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,10 +294,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1579418593965" />
-    <state x="666" y="41" key="CommitChangelistDialog2" timestamp="1581297515555">
+    <state x="666" y="41" key="CommitChangelistDialog2" timestamp="1581297962897">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="666" y="41" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297515555" />
+    <state x="666" y="41" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297962897" />
     <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1581297503585">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -295,38 +310,38 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="791" y="428" key="Github.ShareDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1579490073845" />
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1581297668114">
+    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1581321233281">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
-    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1581297668114">
+    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581321233281" />
+    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1581321233281">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
-    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1581297668114">
+    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581321233281" />
+    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1581321233281">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
-    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1581297668114">
+    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581321233281" />
+    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1581321233281">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581297668114" />
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1579683574810">
+    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581321233281" />
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1581320247454">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
-    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1579683574810">
+    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581320247454" />
+    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1581320247454">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
-    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1579683574810">
+    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581320247454" />
+    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1581320247454">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
-    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1579683574810">
+    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581320247454" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1581320247454">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1579683574810" />
+    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581320247454" />
     <state x="532" y="191" key="NewModule_or_Project.wizard" timestamp="1579490623825">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -335,18 +350,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="345" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1579489917953" />
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1581297523928">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1581297964943">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297523928" />
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579663770179">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581297964943" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581312976829">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1579663770179" />
-    <state x="532" y="257" key="run.anything.popup" timestamp="1579510119644">
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581312976829" />
+    <state x="627" y="264" key="extract.method.dialog" timestamp="1581315184986">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1579510119644" />
+    <state x="627" y="264" key="extract.method.dialog/0.40.1920.1040@0.40.1920.1040" timestamp="1581315184986" />
+    <state x="532" y="257" width="840" height="1034" key="run.anything.popup" timestamp="1581302798041">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="532" y="257" width="840" height="1034" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1581302798041" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579760711952">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -378,6 +397,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/stack/PolandNotation.java</url>
           <line>74</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/SelectSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
