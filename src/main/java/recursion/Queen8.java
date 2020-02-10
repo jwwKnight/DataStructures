@@ -59,6 +59,9 @@ public class Queen8 {
             // 2. Math.abs(n-i) == Math.abs(array[n]-array[i])判断第n个皇后是否和第i个皇后在同一斜线
             // n = 1 放置第2列  n=1 array[1] = 1  从0开始
             //Math.abs(n-i) = 1， Math.abs(array[n]-array[i])= Math.abs（1-0） = 1
+            /*
+            其实就是看看两个皇后行的差值和列的差值是不是相同，差值相同说明是在同一斜线
+             */
             //3. 判断是否在同一行，没有必要，n每次都在递增
             if (array[i] == array[n] || Math.abs(n - i) == Math.abs(array[n] - array[i])) {
                 return false;
