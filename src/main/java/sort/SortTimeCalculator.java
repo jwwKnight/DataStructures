@@ -12,8 +12,9 @@ public class SortTimeCalculator {
         }
         long s = System.currentTimeMillis();
 
-//        BubbleSort.sortStart(arr);
-        SelectSort.sortStart(arr);
+//        BubbleSort.sortStart(arr);//14
+//        SelectSort.sortStart(arr);//3
+        InsertSort.sortStart(arr);//0.7
 
         long e = System.currentTimeMillis();
         System.out.println("耗时： " + (e - s)+ " 毫秒");
