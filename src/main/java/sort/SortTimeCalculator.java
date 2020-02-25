@@ -12,11 +12,12 @@ public class SortTimeCalculator {
         }
         long s = System.currentTimeMillis();
 
-//        BubbleSort.sortStart(arr);//14
-//        SelectSort.sortStart(arr);//3
-        InsertSort.sortStart(arr);//0.7
+//        BubbleSort.sortStart(arr);//14s
+//        SelectSort.sortStart(arr);//3s
+        InsertSort.sortStart(arr);//0.7s
+//        ShellSort.shellSort2(arr);//19ms
 
         long e = System.currentTimeMillis();
-        System.out.println("耗时： " + (e - s)+ " 毫秒");
+        System.out.println("耗时： " + (e - s) + " 毫秒");
     }
 }
