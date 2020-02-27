@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1e65cd-29f9-47da-b5f1-8adf30c93f1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtab/HashTabDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/InsertValueSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/SortTimeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/SortTimeCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +57,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="search" />
       <recent name="linkedList" />
     </key>
   </component>
@@ -74,13 +75,13 @@
       <command value="?mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
+  <component name="RunManager" selected="Application.HashTabDemo">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.InsertSort" />
+    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtab.HashTabDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="hashtab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SelectSort" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.bucketSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.HashTabDemo" />
+        <item itemvalue="Application.InsertValueSearch" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SortTimeCalculator" />
-        <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.bucketSort" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +186,9 @@
       <workItem from="1581469072575" duration="5925000" />
       <workItem from="1581491855349" duration="7000" />
       <workItem from="1582074870808" duration="46000" />
+      <workItem from="1582592630125" duration="13857000" />
+      <workItem from="1582678930870" duration="12828000" />
+      <workItem from="1582765225941" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="老韩数据结构与算法练习代码">
       <created>1579490019052</created>
@@ -249,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581469121835</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="希尔">
+      <created>1582592716805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582592716805</updated>
+    </task>
+    <task id="LOCAL-00011" summary="归并排序 基数（桶）排序">
+      <created>1582678986158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582678986158</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,21 +322,27 @@
     <MESSAGE value="注释" />
     <MESSAGE value="冒泡排序&#10;选择排序" />
     <MESSAGE value="插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="插入排序" />
+    <MESSAGE value="希尔" />
+    <MESSAGE value="归并排序 基数（桶）排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并排序 基数（桶）排序" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="452" y="135" key="#Notifications" timestamp="1582765622669">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="452" y="135" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1582765622669" />
     <state x="452" y="136" key="#Project_Structure" timestamp="1579159359457">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="452" y="136" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1579159359457" />
-    <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1579418593965">
+    <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1582705268197">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1579418593965" />
-    <state x="666" y="41" key="CommitChangelistDialog2" timestamp="1581469120872">
+    <state x="721" y="209" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1582705268197" />
+    <state x="666" y="41" key="CommitChangelistDialog2" timestamp="1582678985266">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="666" y="41" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1581469120872" />
+    <state x="666" y="41" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1582678985266" />
     <state x="92" y="132" width="1736" height="856" key="DiffContextDialog" timestamp="1581297503585">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -331,62 +355,62 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="791" y="428" key="Github.ShareDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1579490073845" />
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom" timestamp="1581483900462">
+    <state width="1867" height="256" key="GridCell.Tab.0.bottom" timestamp="1582707872172">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581483900462" />
-    <state width="1867" height="292" key="GridCell.Tab.0.center" timestamp="1581483900462">
+    <state width="1867" height="256" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1582707872172" />
+    <state width="1867" height="256" key="GridCell.Tab.0.center" timestamp="1582707872171">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581483900462" />
-    <state width="1867" height="292" key="GridCell.Tab.0.left" timestamp="1581483900462">
+    <state width="1867" height="256" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1582707872171" />
+    <state width="1867" height="256" key="GridCell.Tab.0.left" timestamp="1582707872170">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581483900462" />
-    <state width="1867" height="292" key="GridCell.Tab.0.right" timestamp="1581483900462">
+    <state width="1867" height="256" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1582707872170" />
+    <state width="1867" height="256" key="GridCell.Tab.0.right" timestamp="1582707872172">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581483900462" />
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom" timestamp="1581325598105">
+    <state width="1867" height="256" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1582707872172" />
+    <state width="1867" height="333" key="GridCell.Tab.1.bottom" timestamp="1582621394875">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581325598105" />
-    <state width="1867" height="322" key="GridCell.Tab.1.center" timestamp="1581325598105">
+    <state width="1867" height="333" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1582621394875" />
+    <state width="1867" height="333" key="GridCell.Tab.1.center" timestamp="1582621394875">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581325598105" />
-    <state width="1867" height="322" key="GridCell.Tab.1.left" timestamp="1581325598105">
+    <state width="1867" height="333" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1582621394875" />
+    <state width="1867" height="333" key="GridCell.Tab.1.left" timestamp="1582621394875">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581325598105" />
-    <state width="1867" height="322" key="GridCell.Tab.1.right" timestamp="1581325598105">
+    <state width="1867" height="333" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1582621394875" />
+    <state width="1867" height="333" key="GridCell.Tab.1.right" timestamp="1582621394875">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1867" height="322" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581325598105" />
+    <state width="1867" height="333" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1582621394875" />
     <state x="532" y="191" key="NewModule_or_Project.wizard" timestamp="1579490623825">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="532" y="191" key="NewModule_or_Project.wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1579490623825" />
-    <state x="345" y="118" key="SettingsEditor" timestamp="1579489917953">
+    <state x="345" y="118" key="SettingsEditor" timestamp="1582611965598">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="345" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1579489917953" />
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1581469124519">
+    <state x="345" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1582611965598" />
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2" timestamp="1582678988044">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581469124519" />
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581312976829">
+    <state x="452" y="214" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1582678988044" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582702118646">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1581312976829" />
+    <state x="719" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1582702118646" />
     <state x="627" y="264" key="extract.method.dialog" timestamp="1581315184986">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="627" y="264" key="extract.method.dialog/0.40.1920.1040@0.40.1920.1040" timestamp="1581315184986" />
-    <state x="532" y="257" width="840" height="1034" key="run.anything.popup" timestamp="1581302798041">
+    <state x="532" y="257" width="840" height="1034" key="run.anything.popup" timestamp="1582597048739">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="532" y="257" width="840" height="1034" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1581302798041" />
+    <state x="532" y="257" width="840" height="1034" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1582597048739" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1581387983831">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -424,11 +448,23 @@
           <line>12</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/mergeSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/bucketSort.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="oprStack.peek()" />
+        <watch expression="arr[j]" />
+        <watch expression="indexArr[j]" />
       </configuration>
     </watches-manager>
   </component>
