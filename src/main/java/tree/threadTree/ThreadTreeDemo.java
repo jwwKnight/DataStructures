@@ -20,8 +20,10 @@ public class ThreadTreeDemo {
         n3.left = n6;
 
         TreadTree treadTree = new TreadTree(n1);
-        System.out.println("10的前驱节点是=" + n5.left);//3
-        System.out.println("10的后置节点是=" + n5.right);//1
+//        System.out.println("10的前驱节点是=" + n5.left);//3
+//        System.out.println("10的后置节点是=" + n5.right);//1
+
+        treadTree.showThreadTreePre();
 
     }
 
@@ -38,6 +40,33 @@ class TreadTree {
     }
 
     /**
+     * 前置打印线索化的树
+     */
+    public void showThreadTreePre() {
+        TreadTreeNode node = root;
+        // 1.找到最左边的叶子节点，线索化从这开始
+        while (node != null) {
+
+            while (node.leftThreadType == 0) {
+                node = node.left;
+            }
+
+            // 2.打印
+            System.out.println(node);
+
+            // 3.一直往右输出
+            while (node.rightThreadType == 1) {
+                System.out.println(node.right);
+                node = node.right;
+            }
+
+            node = node.right;
+        }
+
+
+    }
+
+    /**
      * 线索化
      */
     private void threadNode(TreadTreeNode node) {
@@ -50,12 +79,12 @@ class TreadTree {
         // 线索化自己的左指针
         if (node.left == null) {
             node.left = pre;
-            node.threadType = 1;
+            node.leftThreadType = 1;
         }
         // 线索化前驱的右指针
         if (pre != null && pre.right == null) {
             pre.right = node;
-            pre.threadType = 1;
+            pre.rightThreadType = 1;
         }
         pre = node;
 
@@ -69,8 +98,9 @@ class TreadTreeNode {
     String name;
     TreadTreeNode left;
     TreadTreeNode right;
-    // 指向类型，1表示指向的是前驱或者后置节点。0表示指向的是子树
-    int threadType;
+    // 指向类型，1表示指向的是前驱或者后继节点。0表示指向的是子树
+    int leftThreadType;
+    int rightThreadType;
 
     public TreadTreeNode(int no, String name) {
         this.no = no;

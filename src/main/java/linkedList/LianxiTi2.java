@@ -27,10 +27,11 @@ public class LianxiTi2 {
             以list1为基础，逐个取出list2的元素，每当发现list2当前元素小于list1的next元素，
             就把list2当前元素放在list1当前元素之后，next元素之前
          */
-        SingleLinkedListDemo.SingleLinkedList newList = new SingleLinkedListDemo.SingleLinkedList();
+//        SingleLinkedListDemo.SingleLinkedList newList = new SingleLinkedListDemo.SingleLinkedList();
+        SingleLinkedListDemo.SingleLinkedList newList = list2;
 
         SingleLinkedListDemo.HeroNode cur1 = list1.head.next;
-        SingleLinkedListDemo.HeroNode cur2 = list2.head.next;
+//        SingleLinkedListDemo.HeroNode cur2 = list2.head.next;
         SingleLinkedListDemo.HeroNode next;
 
         while (cur1 != null) {
@@ -39,11 +40,11 @@ public class LianxiTi2 {
             cur1 = next;
         }
 
-        while (cur2 != null) {
-            next = cur2.next;
-            newList.addByOrder(cur2);
-            cur2 = next;
-        }
+//        while (cur2 != null) {
+//            next = cur2.next;
+//            newList.addByOrder(cur2);
+//            cur2 = next;
+//        }
         System.out.println("==============合并链表==============");
         newList.show();
 

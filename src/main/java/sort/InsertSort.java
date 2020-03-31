@@ -6,9 +6,9 @@ public class InsertSort {
 
     public static void main(String[] args) {
         //插入排序
-        int[] arr = {10, -1, 3, -2, 9};
+        int[] arr = {9, 3, 10, -2, -1};
         sortStart(arr);
-
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void sortStart(int[] arr) {

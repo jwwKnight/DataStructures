@@ -18,7 +18,7 @@ public class mergeSort {
     }
 
     private static void sortStart(int[] arr, int left, int right, int[] temp) {
-        // right 就是递归传进来的mid，当left=mid时，分到说明已经只剩一个数了，不能再分了，就开始进行排序
+        // right 就是递归传进来的mid，当left=mid(right)时，分到说明已经只剩一个数了，不能再分了，就开始进行排序
         while (left < right) {
             int mid = (left + right) / 2;
             // 左边递归
